@@ -1,0 +1,17 @@
+Initialize Node project:
+npm init -y
+
+install dependencies:
+npm install express mongoose dotenv bcryptjs jsonwebtoken cors
+npm install --save-dev nodemon
+
+Setup scripts in package.json:
+{
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  }
+}
+
+
+
